@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table{
+                position: absolute;
+                left: 380px;
+
+                border-style: solid;
+                border-top-right-radius: 50px;
+                width: 1200px;
+                height: 800px;
+
+            }
+            #first-product-img-container{
+                padding-left: 50px;
+                width: 200px;
+                height: 200px;
+                border-style: solid;
+            }
+            .first-product-img{
+                height: 100px;
+                
+            }
+            .first-product-des{
+                text-align: center;
+                height: 202px;
+               
+                border-style: solid;
+            }
+            .product-link-new{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: large;
+                text-decoration: none;
+            }
+            .first-product-price{
+                text-align: center;
+                font-size: 2cm;
+                border-style: solid;
+            }
+            footer{
+                margin-top:797px;
+                margin-left:372px ;
+                width: 1194px;
+                position: absolute;
+                border-style: solid;
+                border-color: grey;
+                
+            }
+            .product-name {
+                border-style: solid;
+
+            }
+            .body-color{
+                background-color: brown;
+            }
+
+        </style>
+
+    </head>
+    <body id="body">
+        <script>
+            function makeH1IntoSmthElse() {
+                let h1TagNode = document.getElementsByTagName('h1')
+
+                h1TagNode += "This h1 was changed"
+                
+            }
+            function changePageBackColor() {
+      
+      let pageBodyNode = document.getElementById('body')
+      
+      
+      pageBodyNode.classList.add('body-color')
+    }
+    function addCssToEveryAmazonLink() {
+        let amazonLinksNodes = document.getElementsByClassName('product-link')
+        for (let amazonLinksNode of amazonLinksNodes ) {
+            amazonLinksNodes.classList.add('product-link-new')
+            
+        }
+
+          
+}
+
+        </script>
+        <div>
+            <h1 style="text-align:center">Smith Shop</h1>
+        </div>
+        <div>
+            <table><tr>
+                <th class="product-name">Omega MM1500GY</th>
+                <th class="product-name">Harley-Davidson</th>>
+                <th class="product-name">CeraVe Moisturizing Cream</th>
+                <th class="product-name">HP DeskJet 4155e</th>>
+                <th  class="top-right">Logitech C920x HD Pro</th>
+              </tr>
+              <tr>
+                <td id="first-product-img-container"><img class='first-product-img'src="https://m.media-amazon.com/images/I/71NygmbGRuL._AC_SX569_.jpg">
+                <a class="product-link" href="https://www.amazon.com/Omega-MM1500GY-Nutrition-Masticating-200-Watt/dp/B09NDY69SG/?_encoding=UTF8&pd_rd_w=4S56t&pf_rd_p=716a1ed9-074f-4780-9325-0019fece3c64&pf_rd_r=CWHS1Z3TB4XN4PZBB3SB&pd_rd_r=c514eee7-17cc-498c-8591-9c87491b5758&pd_rd_wg=SCRzO&ref_=pd_gw_ci_mcx_mr_hp_atf_m&th=1">Link</a></td>
+                
+                <td id="first-product-img-container"><img class='first-product-img'src="https://m.media-amazon.com/images/I/710W-tUaywL._AC_SL1500_.jpg"><a class="product-link" href="https://www.amazon.com/Fisher-Price-Harley-Davidson-Tough-Amazon-Exclusive/dp/B004UU9ZB6?ref_=Oct_DLandingS_D_0e2887fc_60&smid=ATVPDKIKX0DER&th=1">Link</a></td>
+                    
+                <td id="first-product-img-container"><img class='first-product-img'src="https://m.media-amazon.com/images/I/61S7BrCBj7L._SY355_.jpg">
+                        <a class="product-linkk" href="https://www.amazon.com/CeraVe-Moisturizing-Cream-Daily-Moisturizer/dp/B00TTD9BRC/ref=lp_16225006011_1_4">Link</a></td>
+                        
+                        <td id="first-product-img-container"><img class='first-product-img'src="https://m.media-amazon.com/images/I/612G5AUOZWL._AC_SY355_.jpg">
+                            <a class="product-link" href="https://www.amazon.com/HP-DeskJet-4155e-Wireless-Printer/dp/B08XYRDSL7/ref=pd_ybh_a_sccl_5/143-2006317-3588432?pd_rd_w=vkIch&pf_rd_p=48b4f440-2099-4e34-afeb-210417d3bf51&pf_rd_r=VN7ZZQQ2J50J4V8G2MDY&pd_rd_r=f8f0f12a-6dfb-4337-9290-17c2fc4a6363&pd_rd_wg=3QBSV&pd_rd_i=B08XYRDSL7&psc=1">Link</a></td>
+                            
+                            <td id="first-product-img-container"><img class='first-product-img'src="https://m.media-amazon.com/images/I/71iNwni9TsL._AC_SL1500_.jpg">
+                                <a class="product-link" href="https://www.amazon.com/Logitech-C920x-Pro-HD-Webcam/dp/B085TFF7M1/ref=sr_1_10?qid=1649685512&s=computers-intl-ship&sr=1-10&th=1">Link</a></td>
+                </tr>
+              <tr>
+                <td class="first-product-des">Description
+                    <p>
+                        Juicing Tip! Use fresh, cold, whole celery stalks to feed through the chute rather than cutting into small pieces when juicing. Provides maximum juice extraction by squeezing celery longer, for more juice and less waste
+                </p>
+            </td>
+            <td class="first-product-des">Description
+                <p>
+                    A tricked-out trike. Cool Harley-Davidson styling
+Pedal-powered-big foot pedals make it easy for little riders to get rolling
+Rugged, durable tires and stable wheel base for added safety
+Easy-grip handlebars
+Shhh Secret storage compartment under the seat
+                </p>
+            </td>
+            <td class="first-product-des">Description
+                <p>
+                    With hyaluronic acid, ceramides and MVE technology for 24 hour hydration. Rich, velvety texture that leaves skin feeling smooth, it is absorbed quickly for softened skin without greasy, sticky, feel.
+               </p>
+           </td>     
+    <td class="first-product-des">Description
+        <p>
+            Juicing Tip! Use fresh, cold, whole celery stalks to feed through the chute rather than cutting into small pieces when juicing. Provides maximum juice extraction by squeezing celery longer, for more juice and less waste
+    </p>
+</td><td class="first-product-des">Description
+    <p>
+        Juicing Tip! Use fresh, cold, whole celery stalks to feed through the chute rather than cutting into small pieces when juicing. Provides maximum juice extraction by squeezing celery longer, for more juice and less waste
+</p>
+</td>
+              </tr>
+              <tr>
+                  <td class="first-product-price">
+                      450$
+                  </td>
+                  <td class="first-product-price">
+                    450$
+                    <td class="first-product-price">
+                        450$
+                        <td class="first-product-price">
+                            450$
+                            <td class="first-product-price">
+                                450$
+                                
+
+              </tr>
+            </table>
+        </div>
+        <div>
+            <footer>
+                <p>Author: Simon Kovac<br>
+                <a href="simon.kovac22@gmail.com">simon.kovac@gmail.com</a></p>
+              </footer>
+        </div>
+        
+
+    </body>
+</html>
